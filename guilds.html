@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guilduron Home - A Minecraft Server</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Site Description">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.dataTables.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script class="init" type="text/javascript">
+$(document).ready(function() {
+	$('#example').DataTable( {
+		"processing": true,
+		"serverSide": true,
+		"ajax": "./guilds.php",
+		"columns": [
+			{ "data": "name" },
+			{ "data": "prefix" },
+			{ "data": "allies"},
+		]
+	} );
+} );
+</script>
+</head>
+
+<body>
+    <!-- Start the page -->
+    <div class="container">
+                       <img src="img/logo.png" class="img-responsive animated bounceInDown">
+            </div>   
+<div class="icons">
+                <div class="col-sm-3"> <a href="index.html"><img src="img/icons/icon1.png" width="217" height="64" class="img-responsive animated bounceInUp"></a>
+              </div>
+                <div class="col-sm-3">
+                    <a href="info.html"><img src="img/icons/icon2.png" width="186" height="64" class="img-responsive animated bounceInUp"></a>
+    </div>
+                <div class="col-sm-3">
+                    <a href="econ.html"><img src="img/icons/icon3.png" width="196" height="64" class="img-responsive animated bounceInUp"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="guilds.html"><img src="img/icons/icon4.png" width="254" height="64" class="img-responsive animated bounceInUp"></a>
+                </div>
+<div>
+	<div style="padding:4px" class="list-group-item-info">
+	  <div class="section" id="content">
+			   <br>
+ <h2>Guilds</h2>
+			    <blockquote>
+			      <p>A guild  is an association of artisans or merchants who oversee the practice of their craft in a particular town. The earliest types of guild were formed as confraternities of tradesmen. They were organized in a manner something between a professional association, trade union, a cartel, and a secret society. They often depended on grants of letters patent by a monarch or other authority to enforce the flow of trade to their self-employed members, and to retain ownership of tools and the supply of materials. A lasting legacy of traditional guilds are the guildhalls constructed and used as meeting places.<br>
+			      Only the richest will have access to the Guild Ownership. So start your trade dynasty and mining operation early to earn money. One day you may be the owner of your own Guild. With that comes greater power. Guild Vaults give you a shareable space for all teammates. You get your very own Guilds Teleport. Buffs and Tiers only empowers your Guild further. But at what cost?</p>
+		        </blockquote>
+			    <h2>Current Server Guilds</h2>
+			    <div><table width="100%" class="display" id="example" cellspacing="0">
+	<thead>
+		<tr>
+			<td align="left" valign="top">Name</td>
+			<td align="left" valign="top">Prefix</td>
+			<th align="left" valign="top">Allies</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<td align="left" valign="top">Name</td>
+			<td align="left" valign="top">Prefix</td>
+			<td align="left" valign="top">Allies</td>
+		</tr>
+	</tfoot>
+</table></div><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" align="left" scope="col"><h2>Luxory</h2></td>
+    <td width="50%" align="left" scope="col"><h2>Cost</h2></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="50%" align="left" scope="row">Guild</td>
+    <td width="50%" align="left">$50,000</td>
+  </tr>
+  <tr>
+    <td width="50%" align="left" scope="row">Set Guilds Home</td>
+    <td width="50%" align="left">$10,000 </td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="50%" align="left" scope="row">Buffs</td>
+    <td width="50%" align="left">$500 - 10minutes</td>
+  </tr>
+  <tr>
+    <td width="50%" align="left" scope="row">Tier 2</td>
+    <td width="50%" align="left">$75,000 - 30 members w/ XP Multiplier x2</td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="50%" align="left" scope="row">Tier 3</td>
+    <td width="50%" align="left">$150,000 - 50 members w/ XP Multiplier x3</td>
+  </tr>
+</table>
+
+			    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th align="left" scope="col">
+      <table width="50%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th width="33%" align="left" scope="col"><h2>Commands</h2></th>
+          <th width="67%" align="left" scope="col"><h6><img src="images/server-icon.png" alt="" width="16" height="16">Denotes payment required</h6></th>
+        </tr>
+      </table></th>
+  </tr>
+    <tr>
+    <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr bgcolor="#CCCCCC">
+        <td width="12%" align="left" scope="col">accept</td>
+        <td width="12%" align="left" scope="col">join </td>
+        <td width="26%" align="left" scope="col">Accept an invite to a guild</td>
+        <td align="left" scope="col">/guild &lt;command&gt; &lt;guild name&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">ally</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Ally with a Guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;add | remove&gt; &lt;guild&gt;, or chat &lt;guild&gt;<br></td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">boot</td>
+        <td align="left">kick</td>
+        <td align="left">Kick a player from your guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;player&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">buff <img src="images/server-icon.png" alt="" width="16" height="16"></td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Buff your guild</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">cancel</td>
+        <td align="left">decline</td>
+        <td align="left">Cancel an action</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">chat</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Send a message to your guild members</td>
+        <td align="left">/guild &lt;command&gt; &lt;message&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">check</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Check pending invites</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">confirm</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Confirm an action</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">create <img src="images/server-icon.png" alt="" width="16" height="16"></td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Create a guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;name&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">decline </td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Decline a guild invite</td>
+        <td align="left">/guild &lt;command&gt; &lt;Guild Name&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">delete</td>
+        <td align="left">disband</td>
+        <td align="left">Delete your current guild</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">demote</td>
+        <td align="left">rankdown</td>
+        <td align="left">Demote a member of your guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;player&gt; [new role]</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">home</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Teleport to your guild home</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">info</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">View your guild's info</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">inspect</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Inspect another guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;guild name&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">invite</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Invite a player to your guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;player&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">list</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">List all the guilds on the server</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">prefix</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Change your guild's prefix</td>
+        <td align="left">/guild &lt;command&gt; &lt;new prefix&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">promote</td>
+        <td align="left">rankup</td>
+        <td align="left">Promote a member of your guild</td>
+        <td align="left">/guild &lt;command&gt; &lt;player&gt; [new role]</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">sethome <img src="images/server-icon.png" alt="" width="16" height="16"></td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Set your guild's home</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">status</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Toggle your guild Public / Private</td>
+        <td align="left">/guild &lt;command&gt; &lt;public | private&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">transfer</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Transfer your guild to another user</td>
+        <td align="left">/guild &lt;command&gt; &lt;name&gt;</td>
+      </tr>
+      <tr bgcolor="#CCCCCC">
+        <td align="left" scope="row">upgrade <img src="images/server-icon.png" alt="" width="16" height="16"></td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Upgrade your guild</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+      <tr>
+        <td align="left" scope="row">vault</td>
+        <td align="left">&nbsp;</td>
+        <td align="left">Open your guild vault</td>
+        <td align="left">/guild &lt;command&gt;</td>
+      </tr>
+    </table></th>
+  </tr>
+</table>
+<br>
+<p><center><a href="paypal.me/Guilduron">Support our server and donate today!</a></center></p>
+</div>
+	</div>
+</div>
+</div>
+
+
+    <!-- Footer -->
+
+<!--    <script src="js/jquery-1.11.2.min.js" type="text/javascript">
+    </script>
+    <script src="js/jquery.firefly-0.4.js" type="text/javascript">
+    </script>
+    <script src="js/custom.js" type="text/javascript">
+    </script>
+-->
+</body>
+
+</html>

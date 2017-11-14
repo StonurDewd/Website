@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guilduron Home - A Minecraft Server</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Site Description">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Start the page -->
+    <div class="container">
+                       <img src="img/logo.png" class="img-responsive animated bounceInDown">
+            </div>   
+<div class="icons">
+                <div class="col-sm-3"> <a href="index.html"><img src="img/icons/icon1.png" width="217" height="64" class="img-responsive animated bounceInUp"></a>
+              </div>
+                <div class="col-sm-3">
+                    <a href="info.html"><img src="img/icons/icon2.png" width="186" height="64" class="img-responsive animated bounceInUp"></a>
+    </div>
+                <div class="col-sm-3">
+                    <a href="econ.html"><img src="img/icons/icon3.png" width="196" height="64" class="img-responsive animated bounceInUp"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="guilds.html"><img src="img/icons/icon4.png" width="254" height="64" class="img-responsive animated bounceInUp"></a>
+                </div>
+<div>
+	<div style="padding:4px" class="list-group-item-info">
+	  <div class="section" id="content">
+			    <br>
+<h2>Economy</h2><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th scope="col"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="left" scope="col"><h2>Commands</h2></td>
+        </tr>
+        <tr>
+          <th scope="row"><table width="100%" cellpadding="0" cellspacing="0">
+            <TR>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2181-trigger">balance</TD>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2181-alias">bal, money</TD>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2181-desc">Gives the current balance of a player. </TD>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2181-syntax">/&lt;command&gt; &lt;player&gt;</TD>
+            </TR>
+            <TR>
+              <TD align="left" id="cmd-2182-trigger">pay</TD>
+              <TD align="left" id="cmd-2182-alias"></TD>
+              <TD align="left" id="cmd-2182-desc">Pays a specified player from your balance.</TD>
+              <TD align="left" id="cmd-2182-syntax">/&lt;command&gt; &lt;player&gt; &lt;amount&gt;</TD>
+            </TR>
+            <TR>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2180-trigger">sell</TD>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2180-alias"></TD>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2180-desc">Sells an item with amount specified. </TD>
+              <TD align="left" bgcolor="#CCCCCC" id="cmd-2180-syntax">/&lt;command&gt; &lt;itemname|id&gt; &lt;amount&gt;<BR>
+                /&lt;command&gt; &lt;hand|invent|blocks&gt;</TD>
+            </TR>
+            <TR>
+              <TD align="left" id="cmd-2178-trigger">worth</TD>
+              <TD align="left" id="cmd-2178-alias">price</TD>
+              <TD align="left" id="cmd-2178-desc">Displays how much an item is worth</TD>
+              <TD align="left" id="cmd-2178-syntax">/&lt;command&gt; &lt;hand|all&gt;<BR>
+                /&lt;command&gt; &lt;item&gt; &lt;amount&gt;</TD>
+            </TR>
+          </table></th>
+        </tr>
+        
+      </table></th>
+  </tr>
+</table>
+<br>
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					  <tr>
+					    <td width="50%" align="left" class="content" scope="col"><h2>Buying</h2></td>
+					    <th align="left" scope="col"><h2>Selling</h2></th>
+				      </tr>
+                      <tr>
+					    <td align="left" valign="top" bgcolor="#CCCCCC" class="content" scope="col">Shops will be located at spawn exits. For this, Locations will be marked N, E, S, W, with corresponding shopname.
+					      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+					      <tr>
+					        <td width="30%" align="left" scope="col">LOCATION</td>
+                            <td width="40%" align="left" scope="col">ITEM</td>
+					        <td width="15%" align="left" scope="col">QTY</td>
+                            <td align="left" scope="col">PRICE</td>
+				          </tr>
+				        </table>					      </td>
+					    <td align="left" valign="top" bgcolor="#CCCCCC"  scope="col">Shops will not BUY things from you. You will need to use "/sell" command. Prices are for 1 Item
+					      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+					      <tr>
+					        <td width="50%" align="left" scope="col">ITEM</td>
+					        <td align="left" scope="col">PRICE</td>
+				          </tr>
+				        </table>					      </td>
+				      </tr>
+                      <tr>
+					    <th align="left" valign="top" class="content" scope="col"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+					      <tr>
+					        <td width="30%" valign="top">North:<br>
+				            Quik-E Mart</td>
+					        <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+					          <tr bgcolor="#CCCCCC">
+					            <td width="58%">Apple</td>
+					            <td width="21%">10</td>
+					            <td width="21%">215</td>
+				              </tr>
+					          <tr>
+					            <td>Gapple</td>
+					            <td>10</td>
+					            <td>1500</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Carrot</td>
+					            <td>64</td>
+					            <td>100</td>
+				              </tr>
+					          <tr>
+					            <td>Potato</td>
+					            <td>64</td>
+					            <td>100</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Beetroot</td>
+					            <td>64</td>
+					            <td>100</td>
+				              </tr>
+					          <tr>
+					            <td>Mushroom Stew</td>
+					            <td>1</td>
+					            <td>10</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Rabbit Stew</td>
+					            <td>1</td>
+					            <td>10</td>
+				              </tr>
+					          <tr>
+					            <td>Beetroot Soup</td>
+					            <td>1</td>
+					            <td>10</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Bread</td>
+					            <td>10</td>
+					            <td>400</td>
+				              </tr>
+					          <tr>
+					            <td>Cake</td>
+					            <td>1</td>
+					            <td>200</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Cookie</td>
+					            <td>10</td>
+					            <td>25</td>
+				              </tr>
+					          <tr>
+					            <td>Pie</td>
+					            <td>10</td>
+					            <td>800</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Pork</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr>
+					            <td>Steak</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Chicken</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr>
+					            <td>Rabbit</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Mutton</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr>
+					            <td>Cooked Fish</td>
+					            <td>10</td>
+					            <td>100</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Melon</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr>
+					            <td>Pumpkin</td>
+					            <td>64</td>
+					            <td>700</td>
+				              </tr>
+					          <tr bgcolor="#CCCCCC">
+					            <td>Hay</td>
+					            <td>10</td>
+					            <td>75</td>
+				              </tr>
+				            </table></td>
+				          </tr>
+				        </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">North:<br>
+				              Bev Mo</td>
+					          <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+					            <tr>
+					              <td width="58%">Cauldren</td>
+					              <td width="21%">1</td>
+					              <td width="21%">75</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Brew Stand</td>
+					              <td>1</td>
+					              <td>75</td>
+				                </tr>
+					            <tr>
+					              <td>Empty Bottle</td>
+					              <td>10</td>
+					              <td>300</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Pot : Heal</td>
+					              <td>1</td>
+					              <td>150</td>
+				                </tr>
+					            <tr>
+					              <td>Pot : Regen</td>
+					              <td>1</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Pot : Strength</td>
+					              <td>1</td>
+					              <td>150</td>
+				                </tr>
+					            <tr>
+					              <td>SPot : Bottle</td>
+					              <td>1</td>
+					              <td>200</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>SPot : Invisible</td>
+					              <td>1</td>
+					              <td>200</td>
+				                </tr>
+					            <tr>
+					              <td>SPot : Weakness</td>
+					              <td>1</td>
+					              <td>200</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Lingering Bottle</td>
+					              <td>1</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>Dragon Breathe</td>
+					              <td>10</td>
+					              <td>25000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Rabbit Foot</td>
+					              <td>10</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>Gold Carrot</td>
+					              <td>10</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Gold Melon</td>
+					              <td>10</td>
+					              <td>150</td>
+				                </tr>
+					            <tr>
+					              <td>Magma Cream</td>
+					              <td>64</td>
+					              <td>1500</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Blaze Powder</td>
+					              <td>64</td>
+					              <td>750</td>
+				                </tr>
+					            <tr>
+					              <td>Fermented Eye</td>
+					              <td>64</td>
+					              <td>750</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Ghast Tear</td>
+					              <td>10</td>
+					              <td>7000</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">East:<br>
+				              Ace Hardware</td>
+					          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					            <tr>
+					              <td width="58%">Map</td>
+					              <td width="21%">10</td>
+					              <td width="21%">150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Bucket</td>
+					              <td>1</td>
+					              <td>25</td>
+				                </tr>
+					            <tr>
+					              <td>Anvil</td>
+					              <td>10</td>
+					              <td>650</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Ladder</td>
+					              <td>64</td>
+					              <td>50</td>
+				                </tr>
+					            <tr>
+					              <td>Torch</td>
+					              <td>64</td>
+					              <td>300</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>End Rod</td>
+					              <td>64</td>
+					              <td>700</td>
+				                </tr>
+					            <tr>
+					              <td>Flint/Steel</td>
+					              <td>1</td>
+					              <td>100</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Compass</td>
+					              <td>1</td>
+					              <td>30</td>
+				                </tr>
+					            <tr>
+					              <td>Fishing Rod</td>
+					              <td>1</td>
+					              <td>15</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Clock</td>
+					              <td>1</td>
+					              <td>10</td>
+				                </tr>
+					            <tr>
+					              <td>Shears</td>
+					              <td>2</td>
+					              <td>50</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Lead</td>
+					              <td>10</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>NameTag</td>
+					              <td>10</td>
+					              <td>10</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Stone Shovel</td>
+					              <td>1</td>
+					              <td>5</td>
+				                </tr>
+					            <tr>
+					              <td>Stone Pick</td>
+					              <td>1</td>
+					              <td>10</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Stone Axe</td>
+					              <td>1</td>
+					              <td>20</td>
+				                </tr>
+					            <tr>
+					              <td>Stone Hoe</td>
+					              <td>1</td>
+					              <td>5</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Diamond Shovel</td>
+					              <td>1</td>
+					              <td>300</td>
+				                </tr>
+					            <tr>
+					              <td>Diamond Pick</td>
+					              <td>1</td>
+					              <td>700</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Diamond Axe</td>
+					              <td>1</td>
+					              <td>700</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">East:<br>
+				              My Might</td>
+					          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					            <tr>
+					              <td width="58%">Bow</td>
+					              <td width="21%">1</td>
+					              <td width="21%">30</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Arrow</td>
+					              <td>64</td>
+					              <td>50</td>
+				                </tr>
+					            <tr>
+					              <td>Shield</td>
+					              <td>1</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Totem of Undying</td>
+					              <td>1</td>
+					              <td>1250</td>
+				                </tr>
+					            <tr>
+					              <td>Stone Sword</td>
+					              <td>1</td>
+					              <td>5</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Iron Sword</td>
+					              <td>1</td>
+					              <td>45</td>
+				                </tr>
+					            <tr>
+					              <td>Gold Sword</td>
+					              <td>1</td>
+					              <td>10</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Diamond Sword</td>
+					              <td>1</td>
+					              <td>500</td>
+				                </tr>
+					            <tr>
+					              <td>Iron Boots</td>
+					              <td>1</td>
+					              <td>30</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Iron Leggins</td>
+					              <td>1</td>
+					              <td>30</td>
+				                </tr>
+					            <tr>
+					              <td>Iron Chestplate</td>
+					              <td>1</td>
+					              <td>30</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Iron Helmet</td>
+					              <td>1</td>
+					              <td>30</td>
+				                </tr>
+					            <tr>
+					              <td>Diamond Boots</td>
+					              <td>1</td>
+					              <td>1000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Diamond Leggins</td>
+					              <td>1</td>
+					              <td>1750</td>
+				                </tr>
+					            <tr>
+					              <td>Diamond Chestplate</td>
+					              <td>1</td>
+					              <td>2000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Diamond Helmet</td>
+					              <td>1</td>
+					              <td>1250</td>
+				                </tr>
+					            <tr>
+					              <td>Wood Sword</td>
+					              <td>1 </td>
+					              <td>FREE</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Leather Armor</td>
+					              <td>4</td>
+					              <td>FREE</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">South:<br>
+				              Builder Depot</td>
+					          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					            <tr>
+					              <td width="58%">Stone</td>
+					              <td width="21%">64</td>
+					              <td width="21%">200</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Cobble</td>
+					              <td>64</td>
+					              <td>75</td>
+				                </tr>
+					            <tr>
+					              <td>Moss Cobble</td>
+					              <td>64</td>
+					              <td>6000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Granite</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr>
+					              <td>Pol. Granite</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Andesite</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr>
+					              <td>Pol. Andesite</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Diorite</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr>
+					              <td>Pol. Diorite</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Sand</td>
+					              <td>64</td>
+					              <td>75</td>
+				                </tr>
+					            <tr>
+					              <td>Gravel</td>
+					              <td>64</td>
+					              <td>75</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Podzol</td>
+					              <td>64</td>
+					              <td>100</td>
+				                </tr>
+					            <tr>
+					              <td>Mycelium</td>
+					              <td>64</td>
+					              <td>10000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Endstone</td>
+					              <td>64</td>
+					              <td>50</td>
+				                </tr>
+					            <tr>
+					              <td>Quartz Block</td>
+					              <td>64</td>
+					              <td>10000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Obsidian</td>
+					              <td>64</td>
+
+					              <td>8500</td>
+				                </tr>
+					            <tr>
+					              <td>Oak Log</td>
+					              <td>65</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Oak Sapp</td>
+					              <td>64</td>
+					              <td>200</td>
+				                </tr>
+					            <tr>
+					              <td>Spruce Log</td>
+					              <td>64</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Spruce Sapp</td>
+					              <td>64</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>Dk Oak Log</td>
+					              <td>64</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>DK Oak Sapp</td>
+					              <td>64</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>Acacia Log</td>
+					              <td>64</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Acacia Sapp</td>
+					              <td>64</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>Jungle Log</td>
+					              <td>64</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Jungle Sapp</td>
+					              <td>64</td>
+					              <td>250</td>
+				                </tr>
+					            <tr>
+					              <td>Birch Log</td>
+					              <td>64</td>
+					              <td>150</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Birch Sapp</td>
+					              <td>64</td>
+					              <td>250</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">South:<br>
+				              Eye Keeya</td>
+					          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					            <tr>
+					              <td width="58%">Leaf Blocks (All)</td>
+					              <td width="21%">64</td>
+					              <td width="21%">75</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Web</td>
+					              <td>64</td>
+					              <td>75</td>
+				                </tr>
+					            <tr>
+					              <td>Dragon Head</td>
+					              <td>1</td>
+					              <td>500</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Cooble Walls (All)</td>
+					              <td>64</td>
+					              <td>75</td>
+				                </tr>
+					            <tr>
+					              <td>Cauldren</td>
+					              <td>5 </td>
+					              <td>500</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Brew Stand</td>
+					              <td>5</td>
+					              <td>500</td>
+				                </tr>
+					            <tr>
+					              <td>Slime</td>
+					              <td>64</td>
+					              <td>16500</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Noteblock</td>
+					              <td>64</td>
+					              <td>2500</td>
+				                </tr>
+					            <tr>
+					              <td>Jukebox</td>
+					              <td>64</td>
+					              <td>350</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Enchantment Table</td>
+					              <td>1</td>
+					              <td>300</td>
+				                </tr>
+					            <tr>
+					              <td>Painting</td>
+					              <td>64</td>
+					              <td>2000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Mob Head</td>
+					              <td>10</td>
+					              <td>2500</td>
+				                </tr>
+					            <tr>
+					              <td>Beacon</td>
+					              <td>1</td>
+					              <td>5000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Armor Stand</td>
+					              <td>20</td>
+					              <td>450</td>
+				                </tr>
+					            <tr>
+					              <td>Bed</td>
+					              <td>5</td>
+					              <td>450</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Planter</td>
+					              <td>10</td>
+					              <td>150</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">West:<br>
+				              Red Stoners</td>
+					          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					            <tr>
+					              <td width="58%">Dispenser </td>
+					              <td width="21%">10</td>
+					              <td width="21%">650</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Dropper</td>
+					              <td>10</td>
+					              <td>650</td>
+				                </tr>
+					            <tr>
+					              <td>Hopper</td>
+					              <td>64</td>
+					              <td>7000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Observer</td>
+					              <td>10</td>
+					              <td>2000</td>
+				                </tr>
+					            <tr>
+					              <td>Light Sensor</td>
+					              <td>10</td>
+					              <td>2000</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Sticky Piston</td>
+					              <td>10</td>
+					              <td>3000</td>
+				                </tr>
+					            <tr>
+					              <td>Piston</td>
+					              <td>10</td>
+					              <td>2250</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Lamp</td>
+					              <td>64</td>
+					              <td>3500</td>
+				                </tr>
+					            <tr>
+					              <td>Torch</td>
+					              <td>64</td>
+					              <td>2250</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>TNT</td>
+					              <td>64</td>
+					              <td>8000</td>
+				                </tr>
+					            <tr>
+					              <td>Lever</td>
+					              <td>64</td>
+					              <td>700</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Button</td>
+					              <td>10</td>
+					              <td>150</td>
+				                </tr>
+					            <tr>
+					              <td>Tripwire Hook</td>
+					              <td>10</td>
+					              <td>650</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Repeater</td>
+					              <td>64</td>
+					              <td>7300</td>
+				                </tr>
+					            <tr>
+					              <td>Comparator</td>
+					              <td>64</td>
+					              <td>3500</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Redstone Dust</td>
+					              <td>64</td>
+					              <td>2250</td>
+				                </tr>
+					            <tr>
+					              <td>Redstone Block</td>
+					              <td>64</td>
+					              <td>7000</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table>
+					      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+					        <tr>
+					          <td width="30%" valign="top">West:<br>
+				              Trail Ways</td>
+					          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+					            <tr bgcolor="#CCCCCC">
+					              <td width="58%"><strong>Cart</strong></td>
+					              <td width="21%">10</td>
+					              <td width="21%">300</td>
+				                </tr>
+					            <tr>
+					              <td><strong>Chest Cart </strong></td>
+					              <td>10</td>
+					              <td>350</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td><strong>Furnace Cart</strong></td>
+					              <td>10</td>
+					              <td>375</td>
+				                </tr>
+					            <tr>
+					              <td><strong>TNT Cart</strong></td>
+					              <td>10</td>
+					              <td>375</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Hopper Cart</td>
+					              <td>10</td>
+					              <td>375</td>
+				                </tr>
+					            <tr>
+					              <td>Rail</td>
+					              <td>10</td>
+					              <td>250</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Powered Rail</td>
+					              <td>10</td>
+					              <td>325</td>
+				                </tr>
+					            <tr>
+					              <td>Detector Rail</td>
+					              <td>10</td>
+					              <td>350</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Activator Rail</td>
+					              <td>10</td>
+					              <td>350</td>
+				                </tr>
+					            <tr>
+					              <td>Boats</td>
+					              <td>1</td>
+					              <td>25</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Elytra</td>
+					              <td>1</td>
+					              <td>20000</td>
+				                </tr>
+					            <tr>
+					              <td>Carrot Stick</td>
+					              <td>1</td>
+					              <td>5</td>
+				                </tr>
+					            <tr bgcolor="#CCCCCC">
+					              <td>Saddle</td>
+					              <td>1</td>
+					              <td>20</td>
+				                </tr>
+				              </table></td>
+				            </tr>
+			            </table></th>
+					    <th align="left" scope="col"><table width="100%" border="0" align="left" cellpadding="0" cellspacing="0">
+					      <tr bgcolor="#CCCCCC">
+					        <td width="50%" align="left" scope="col">Log</td>
+					        <td align="left" scope="col">2</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">Wool</td>
+					        <td align="left">20</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">Sappling</td>
+					        <td align="left">2-2.5</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">stonebutton</td>
+					        <td align="left">6.0</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">wood</td>
+					        <td align="left">0.5</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">arrow</td>
+					        <td align="left">3.5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">diamondpickaxe</td>
+					        <td align="left">650</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">rawfish</td>
+					        <td align="left">5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">minecart</td>
+					        <td align="left">23</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">stationarywater</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">bread</td>
+					        <td align="left">30</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">mushroomsoup</td>
+					        <td align="left">4.5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">goldchestplate</td>
+					        <td align="left">6.5</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">feather</td>
+					        <td align="left">3</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">leaves</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">storageminecart</td>
+					        <td align="left">30</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">leatherchestplate</td>
+					        <td align="left">85</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">workbench</td>
+					        <td align="left">2.5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">noteblock</td>
+					        <td align="left">36</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">claybrick</td>
+					        <td align="left">5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">stonespade</td>
+					        <td align="left">1.5</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">fence</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">slimeball</td>
+					        <td align="left">50</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">diamondaxe</td>
+					        <td align="left">650</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">leatherleggings</td>
+					        <td align="left">75</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">goldenapple</td>
+					        <td align="left">100</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">snowball</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">poweredminecart</td>
+					        <td align="left">32</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">grass</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">torch</td>
+					        <td align="left">4</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">woodsword</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">diamondhoe</td>
+					        <td align="left">400</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">mossycobblestone</td>
+					        <td align="left">90</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">brownmushroom</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">stonehoe</td>
+					        <td align="left">2.5</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">ironaxe</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">diamondhelmet</td>
+					        <td align="left">1000</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">diamondblock</td>
+					        <td align="left">2000</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironchestplate</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">chainmailhelmet</td>
+					        <td align="left">40</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">wooddoor</td>
+					        <td align="left">3</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">gravel</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">grilledpork</td>
+					        <td align="left">7</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">redrose</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">bucket</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">irondoor</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironpickaxe</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">goldrecord</td>
+					        <td align="left">100</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironhoe</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">fishingrod</td>
+					        <td align="left">10</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">clayball</td>
+					        <td align="left">3</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">coalore</td>
+					        <td align="left">15</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">goldhelmet</td>
+					        <td align="left">6</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">stoneaxe</td>
+					        <td align="left">3</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">goldsword</td>
+					        <td align="left">6</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">sand</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">goldhoe</td>
+					        <td align="left">6</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">irondoorblock</td>
+					        <td align="left">15</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">bedrock</td>
+					        <td align="left">100</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">water</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">waterbucket</td>
+					        <td align="left">40</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">diamondspade</td>
+					        <td align="left">210</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">redstoneore</td>
+					        <td align="left">30</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">woodplate</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">painting</td>
+					        <td align="left">25</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">seeds</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">woodaxe</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">dispenser</td>
+					        <td align="left">58</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironsword</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">furnace</td>
+					        <td align="left">8.5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironspade</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">redstonetorchon</td>
+					        <td align="left">32</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">bookshelf</td>
+					        <td align="left">140</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">diamondleggings</td>
+					        <td align="left">1500</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">chainmailboots</td>
+					        <td align="left">30</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">stonepickaxe</td>
+					        <td align="left">4</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">woodpickaxe</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">doublestep</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">sign</td>
+					        <td align="left">1.5</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">ironleggings</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">watch</td>
+					        <td align="left">6</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">bed</td>
+					        <td align="left">68</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">pumpkin</td>
+					        <td align="left">50</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">goldore</td>
+					        <td align="left">45</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironingot</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">woodstairs</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">cake</td>
+					        <td align="left">180</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">cobblestone</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">lever</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">leatherboots</td>
+					        <td align="left">42</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">leather</td>
+					        <td align="left">10</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">dirt</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">obsidian</td>
+					        <td align="left">130</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">ironblock</td>
+					        <td align="left">190</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">ironhelmet</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">yellowflower</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">chainmailleggings</td>
+					        <td align="left">50</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">goldleggings</td>
+					        <td align="left">6</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">woodhoe</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">diamondore</td>
+					        <td align="left">200</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">egg</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">stone</td>
+					        <td align="left">3</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">leatherhelmet</td>
+					        <td align="left">52</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">ironore</td>
+					        <td align="left">18</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">rails</td>
+					        <td align="left">22</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">sulphur</td>
+					        <td align="left">20</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">cactus</td>
+					        <td align="left">10</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">wallsign</td>
+					        <td align="left">1</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">stoneplate</td>
+					        <td align="left">6</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">string</td>
+					        <td align="left">5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">redmushroom</td>
+					        <td align="left">2</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">redstonewire</td>
+					        <td align="left">30</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">diamondchestplate</td>
+					        <td align="left">1750</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">boat</td>
+					        <td align="left">3</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">jackolantern</td>
+					        <td align="left">56</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">cookedfish</td>
+					        <td align="left">7</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">saddle</td>
+					        <td align="left">100</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">cobblestonestairs</td>
+					        <td align="left">1.5</td>
+				          </tr>
+					      <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">tnt</td>
+					        <td align="left">100</td>
+				          </tr>
+					      <tr>
+					        <td align="left" scope="row">glowingredstoneore</td>
+					        <td align="left">30</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">apple</td>
+					        <td align="left">10</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">woodspade</td>
+					        <td align="left">1</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">goldingot</td>
+					        <td align="left">105</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">diode</td>
+					        <td align="left">110</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">soil</td>
+					        <td align="left">1</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">clay</td>
+					        <td align="left">12</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">goldblock</td>
+					        <td align="left">450</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">stick</td>
+					        <td align="left">0.25</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">paper</td>
+					        <td align="left">10</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">brick</td>
+					        <td align="left">21</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">stationarylava</td>
+					        <td align="left">1</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">chest</td>
+					        <td align="left">4</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">sandstone</td>
+					        <td align="left">3</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">goldpickaxe</td>
+					        <td align="left">6</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">compass</td>
+					        <td align="left">22</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">sugarcane</td>
+					        <td align="left">10</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">diamondsword</td>
+					        <td align="left">420</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row"> goldboots</td>
+					        <td align="left">6</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">sponge</td>
+					        <td align="left">80</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">stonesword</td>
+					        <td align="left">2.5</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">coal</td>
+					        <td align="left">15</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">goldaxe</td>
+					        <td align="left">6</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">bone</td>
+					        <td align="left">2</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">diamond</td>
+					        <td align="left">200</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">glass</td>
+					        <td align="left">3</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">goldspade</td>
+					        <td align="left">6</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">lapisblock</td>
+					        <td align="left">950</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">lavabucket</td>
+					        <td align="left">40</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">wheat</td>
+					        <td align="left">9</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">ladder</td>
+					        <td align="left">0.5</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">sugarcaneblock</td>
+					        <td align="left">15</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">bowl</td>
+					        <td align="left">0.5</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">chainmailchestplate</td>
+					        <td align="left">40</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">diamondboots</td>
+					        <td align="left">850</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">lapisore</td>
+					        <td align="left">100</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">lava</td>
+					        <td align="left">25</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">milkbucket</td>
+					        <td align="left">40</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">redstone</td>
+					        <td align="left">32</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">greenrecord</td>
+					        <td align="left">100</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">inksack</td>
+					        <td align="left">10</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">glowstonedust</td>
+					        <td align="left">10</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">book</td>
+					        <td align="left">45</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">bow</td>
+					        <td align="left">15</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">ironboots</td>
+					        <td align="left">22</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">step</td>
+					        <td align="left">1.5</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">sugar</td>
+					        <td align="left">10</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">potion</td>
+					        <td align="left">100</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">glassbottle</td>
+					        <td align="left">25</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">spidereye</td>
+					        <td align="left">1</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">rottenflesh</td>
+					        <td align="left">0.25</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">enderpearl</td>
+					        <td align="left">2</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">emerald</td>
+					        <td align="left">250</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row">emeraldblock</td>
+					        <td align="left">2500</td>
+				          </tr>
+                          <tr>
+					        <td align="left" scope="row">emeraldore</td>
+					        <td align="left">250</td>
+				          </tr>
+                          <tr bgcolor="#CCCCCC">
+					        <td align="left" scope="row"> mobspawner</td>
+					        <td align="left">250000</td>
+				          </tr>
+				        </table></th>
+				      </tr>
+			    </table><br>
+<p><center><a href="paypal.me/Guilduron">Support our server and donate today!</a></center></p>
+			  </div>
+	</div>
+</div>
+</div>
+
+    <!-- Footer -->
+
+<!--    <script src="js/jquery-1.11.2.min.js" type="text/javascript">
+    </script>
+    <script src="js/jquery.firefly-0.4.js" type="text/javascript">
+    </script>
+    <script src="js/custom.js" type="text/javascript">
+    </script>
+-->
+</body>
+
+</html>

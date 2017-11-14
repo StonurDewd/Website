@@ -1,0 +1,84 @@
+{
+  "Magic": {
+    "prefix": "§9§lMagic§d§lEx",
+    "members": [
+      {
+        "uuid": "81c5095e-0848-4413-938c-e4b746c31024",
+        "role": 0
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [],
+    "pendingAllies": []
+  },
+  "Guilduron": {
+    "prefix": "§2Mista",
+    "members": [
+      {
+        "uuid": "083741c7-6f15-4dd2-926f-ef868e223363",
+        "role": 0
+      },
+      {
+        "uuid": "c2574379-7626-49c6-8246-2cd60d50f5ae",
+        "role": 1
+      },
+      {
+        "uuid": "7bdb25ca-0071-4d7e-a842-18be698a2f39",
+        "role": 3
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [],
+    "pendingAllies": []
+  },
+  "Iced": {
+    "prefix": "§bI§9c§be§9d",
+    "members": [
+      {
+        "uuid": "7157fcd1-a336-4886-a5e5-c95222816dfb",
+        "role": 0
+      },
+      {
+        "uuid": "b12cc7bc-79ce-4b02-989b-50fb4c85f71d",
+        "role": 3
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [
+      "3445231c-699b-4f67-8880-54a041d04907",
+      "3445231c-699b-4f67-8880-54a041d04907",
+      "b12cc7bc-79ce-4b02-989b-50fb4c85f71d"
+    ],
+    "pendingAllies": []
+  },
+  "CluckCluckMotherFuckers": {
+    "prefix": "",
+    "members": [
+      {
+        "uuid": "3445231c-699b-4f67-8880-54a041d04907",
+        "role": 0
+      },
+      {
+        "uuid": "9f54fd45-dfd3-4b79-98a9-4106f480fc1d",
+        "role": 3
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [],
+    "pendingAllies": []
+  },
+  "Spigot": {
+    "prefix": "",
+    "members": [
+      {
+        "uuid": "88ce8c4b-4eab-4df4-9b45-fe866c8f9552",
+        "role": 0
+      }
+    ],
+    "allies": [
+      "POA"
+    ],
+    "invitedMembers": [],
+    "pendingAllies": []
+  }
+}

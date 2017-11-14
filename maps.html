@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guilduron Home - A Minecraft Server</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Site Description">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+	<meta name="keywords" content="minecraft, map, dynamic" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<!-- These 2 lines make us fullscreen on apple mobile products - remove if you don't like that -->
+
+	<link rel="icon" href="http://evildictator.net:8123/images/dynmap.ico" type="image/ico" />
+
+	<script type="text/javascript" src="http://evildictator.net:8123/js/jquery-1.11.0.js?_=2.5-Dev201706100401"></script>
+	<link rel="stylesheet" type="text/css" href="http://evildictator.net:8123/css/leaflet.css?_=2.5-Dev201706100401" />
+	<script type="text/javascript" src="http://evildictator.net:8123/js/leaflet.js?_=2.5-Dev201706100401"></script>
+
+	<script type="text/javascript" src="http://evildictator.net:8123/js/custommarker.js?_=2.5-Dev201706100401"></script>
+
+	<script type="text/javascript" src="http://evildictator.net:8123/js/dynmaputils.js?_=2.5-Dev201706100401"></script>
+
+	<!--<link rel="stylesheet" type="text/css" href="css/embedded.css" media="screen" />-->
+	<link rel="stylesheet" type="text/css" href="http://evildictator.net:8123/css/standalone.css?_=2.5-Dev201706100401" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://evildictator.net:8123/css/dynmap_style.css?_=2.5-Dev201706100401" media="screen" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/override.css" media="screen" /> -->
+
+	<script type="text/javascript" src="http://evildictator.net:8123/version.js?_=2.5-Dev201706100401"></script>
+	<script type="text/javascript" src="http://evildictator.net:8123/js/jquery.json.js?_=2.5-Dev201706100401"></script>
+	<script type="text/javascript" src="http://evildictator.net:8123/js/jquery.mousewheel.js?_=2.5-Dev201706100401"></script>
+	<script type="text/javascript" src="http://evildictator.net:8123/js/minecraft.js?_=2.5-Dev201706100401"></script>
+	<script type="text/javascript" src="http://evildictator.net:8123/js/map.js?_=2.5-Dev201706100401"></script>
+	<script type="text/javascript" src="http://evildictator.net:8123/js/hdmap.js?_=2.5-Dev201706100401"></script>
+	<script type="text/javascript" src="http://evildictator.net:8123/standalone/config.js?_=2.5-Dev201706100401"></script>
+
+	<script type="text/javascript">
+			$(document).ready(function() {
+				window.dynmap = new DynMap($.extend({
+					container: $('#mcmap')
+				}, config));
+			});
+	</script>
+</head>
+
+<body>
+    <!-- Start the page -->
+    <div class="container">
+                       <img src="img/logo.png" class="img-responsive animated bounceInDown">
+            </div>   
+<div class="icons">
+                <div class="col-sm-3"> <a href="index.html"><img src="img/icons/icon1.png" width="217" height="64" class="img-responsive animated bounceInUp"></a>
+              </div>
+                <div class="col-sm-3">
+                    <a href="info.html"><img src="img/icons/icon2.png" width="186" height="64" class="img-responsive animated bounceInUp"></a>
+    </div>
+                <div class="col-sm-3">
+                    <a href="econ.html"><img src="img/icons/icon3.png" width="196" height="64" class="img-responsive animated bounceInUp"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="guilds.html"><img src="img/icons/icon4.png" width="254" height="64" class="img-responsive animated bounceInUp"></a>
+                </div>
+<div>
+	<div style="padding:4px" class="list-group-item-info">
+	  <br><br><div id="mcmap"></div><br>
+<p><center><a href="paypal.me/Guilduron">Support our server and donate today!</a></center></p>
+	</div>
+</div>
+</div>
+    <!-- Footer -->
+<!--
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript">
+    </script>
+    <script src="js/jquery.firefly-0.4.js" type="text/javascript">
+    </script>
+    <script src="js/custom.js" type="text/javascript">
+    </script>
+-->
+</body>
+
+</html>
